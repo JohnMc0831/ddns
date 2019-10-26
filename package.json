@@ -1,0 +1,28 @@
+{
+  "name": "ddns",
+  "version": "1.0.0",
+  "description": "Dynamic DNS client for FreeDNS",
+  "main": "ddns.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaoamaral/ddns.git"
+  },
+  "keywords": [
+    "ddns"
+  ],
+  "author": "https://github.com/joaoamaral",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaoamaral/ddns/issues"
+  },
+  "homepage": "https://github.com/joaoamaral/ddns#readme",
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "cron": "^1.7.2",
+    "fs": "0.0.1-security",
+    "request": "^2.88.0"
+  }
+}
