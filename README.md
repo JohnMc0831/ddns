@@ -1,7 +1,8 @@
 # ddns
+
 Dynamic DNS Client for FreeDNS created in Node.js
+Adapted from code developed by João Amaral
+(https://github.com/joaoamaral)
 
-remember to get your direct url with secretkey from freedns
-
-and to create and copy .plist file to /System/Library/LaunchDaemons/ 
-or use Automator in order to make it run periodically
+You will need to get your direct url (which will have the freedns secretkey as a parameter) from freedns!
+Automate with cron, task scheduler, etc.
